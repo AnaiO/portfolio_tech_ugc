@@ -37,7 +37,7 @@ export default function Contact() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form),
     });
-    console.log("4. réponse status:", res.status); // ← ajoute
+    console.log("4. réponse status ENFIN KE TRUC QUOI:", res); // ← ajoute
     
     if (res.ok) {
       setStatus("success");
