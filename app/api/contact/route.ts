@@ -56,6 +56,10 @@ Pour répondre, écrivez directement à : ${email}
       }),
     });
 
+    const data = await res.json();
+    console.log("Resend status******:", res.status);
+    console.log("Resend response*******:", JSON.stringify(data)); // ← ajoute ça
+
     if (!res.ok) {
       const err = await res.text();
       console.error("Resend error:", err);
