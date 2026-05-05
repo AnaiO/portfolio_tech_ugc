@@ -142,35 +142,7 @@ export default function Hero() {
                   left: 35,
                 }} 
               />
-
-              {/* Fake screen */}
-              {/* <div style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                right: 0,
-                height: "300px",
-                background: "linear-gradient(160deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                overflow: "hidden",
-              }}> */}
-                {/* Abstract tech visual */}
-                {/* <svg style={{ zIndex: 999 }} width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="100" cy="100" r="70" stroke="rgba(124,106,247,0.3)" strokeWidth="1"/>
-                  <circle cx="100" cy="100" r="50" stroke="rgba(192,132,252,0.4)" strokeWidth="1.5"/>
-                  <circle cx="100" cy="100" r="30" stroke="rgba(124,106,247,0.6)" strokeWidth="2"/>
-                  <circle cx="100" cy="100" r="6" fill="var(--accent)"/>
-                  <line x1="100" y1="30" x2="100" y2="70" stroke="rgba(124,106,247,0.5)" strokeWidth="1.5"/>
-                  <line x1="100" y1="130" x2="100" y2="170" stroke="rgba(124,106,247,0.5)" strokeWidth="1.5"/>
-                  <line x1="30" y1="100" x2="70" y2="100" stroke="rgba(192,132,252,0.5)" strokeWidth="1.5"/>
-                  <line x1="130" y1="100" x2="170" y2="100" stroke="rgba(192,132,252,0.5)" strokeWidth="1.5"/>
-                  <path d="M50 50 L80 80" stroke="rgba(124,106,247,0.3)" strokeWidth="1"/>
-                  <path d="M120 120 L150 150" stroke="rgba(124,106,247,0.3)" strokeWidth="1"/>
-                  <path d="M150 50 L120 80" stroke="rgba(192,132,252,0.3)" strokeWidth="1"/>
-                  <path d="M80 120 L50 150" stroke="rgba(192,132,252,0.3)" strokeWidth="1"/>
-                </svg> */}
+  
                 {/* Scan line */}
                 <div style={{
                   position: "absolute",
